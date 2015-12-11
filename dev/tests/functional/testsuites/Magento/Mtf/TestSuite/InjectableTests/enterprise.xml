@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magento Enterprise Edition
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Magento Enterprise Edition End User License Agreement
+ * that is bundled with this package in the file LICENSE_EE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://www.magento.com/license/enterprise-edition
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magento.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magento.com for more information.
+ *
+ * @category    Tests
+ * @package     Tests_Functional
+ * @copyright Copyright (c) 2006-2015 X.commerce, Inc. (http://www.magento.com)
+ * @license http://www.magento.com/license/enterprise-edition
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../vendor/magento/mtf/Magento/Mtf/TestRunner/etc/testRunner.xsd">
+    <rule scope="testsuite">
+        <allow>
+            <class value="Enterprise\Banner\Test\TestCase\AssignRelatedPromotionsToBannerEntityTest" />
+            <class value="Enterprise\Banner\Test\TestCase\CreateBannerEntityTest" />
+            <class value="Enterprise\Banner\Test\TestCase\CreateWidgetBannerTest" />
+            <class value="Enterprise\CatalogEvent\Test\TestCase\CreateCatalogEventEntityFromCatalogEventPageTest" />
+            <class value="Enterprise\CatalogEvent\Test\TestCase\CreateWidgetCatalogEventCarouselTest" />
+            <class value="Enterprise\CatalogEvent\Test\TestCase\DeleteCatalogEventEntityTest" />
+            <class value="Enterprise\Checkout\Test\TestCase\AddProductsToCartBySkuFromBackendTest" />
+            <class value="Enterprise\Checkout\Test\TestCase\AddProductsToCartBySkuFromCustomerAccountTest" />
+            <class value="Enterprise\Checkout\Test\TestCase\CreateWidgetOrderBySkuTest" />
+            <class value="Enterprise\Cms\Test\TestCase\PublishCmsPageRevisionEntityTest" />
+
+            <class value="Enterprise\CustomerBalance\Test\TestCase\CreateCustomerBalanceEntityTest" />
+            <class value="Enterprise\CustomerSegment\Test\TestCase\CreateCustomerSegmentEntityPart1Test" />
+            <class value="Enterprise\CustomerSegment\Test\TestCase\CreateCustomerSegmentEntityPart2Test" />
+            <class value="Enterprise\CustomerSegment\Test\TestCase\CreateCustomerSegmentEntityPart3Test" />
+            <class value="Enterprise\CustomerSegment\Test\TestCase\CreateCustomerSegmentEntityPart4Test" />
+            <class value="Enterprise\CustomerSegment\Test\TestCase\CreateCustomerSegmentEntityPart5Test" />
+            <class value="Enterprise\GiftCard\Test\TestCase\CreateGiftCardProductEntityTest" />
+            <class value="Enterprise\GiftCard\Test\TestCase\DeleteGiftCardFromShoppingCartTest" />
+            <class value="Enterprise\GiftCardAccount\Test\TestCase\AddGiftCardInShoppingCartTest" />
+            <class value="Enterprise\GiftCardAccount\Test\TestCase\CreateGiftCardAccountEntityTest" />
+
+            <class value="Enterprise\GiftRegistry\Test\TestCase\CreateGiftRegistryFrontendEntityTest" />
+            <class value="Enterprise\GiftRegistry\Test\TestCase\CreateGiftRegistryTypeEntityTest" />
+            <class value="Enterprise\GiftWrapping\Test\TestCase\CreateGiftWrappingEntityTest" />
+            <class value="Enterprise\Pci\Test\TestCase\PreventLockedAdminUserLogInToBackendEntityTest" />
+            <class value="Enterprise\Rma\Test\TestCase\CreateRmaEntityOnBackendTest" />
+            <class value="Enterprise\Rma\Test\TestCase\CreateRmaEntityOnFrontendTest" />
+            <class value="Enterprise\TargetRule\Test\TestCase\CreateTargetRuleEntityTest" />
+            <class value="Enterprise\TargetRule\Test\TestCase\UpdateTargetRuleEntityTest" />
+            <class value="Enterprise\UrlRewrite\Test\TestCase\CreateProductUrlRewriteEntityTest" />
+            <class value="Enterprise\UrlRewrite\Test\TestCase\DeleteCustomUrlRewriteEntityTest" />
+
+            <class value="Enterprise\UrlRewrite\Test\TestCase\UpdateProductUrlRewriteEntityTest" />
+            <class value="Enterprise\Wishlist\Test\TestCase\AddProductsToMultipleWishListTest" />
+            <class value="Enterprise\Wishlist\Test\TestCase\CreateMultipleWishlistEntityTest" />
+        </allow>
+    </rule>
+</config>

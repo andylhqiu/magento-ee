@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Lib_Js_Jscolor</name>
+    <version>1.14.2.2</version>
+    <stability>stable</stability>
+    <license uri="http://www.gnu.org/copyleft/lesser.html">GNU LGPL</license>
+    <channel>enterprise</channel>
+    <extends/>
+    <summary>Javascript Jscolor for Magento</summary>
+    <description>Javascript Jscolor for Magento</description>
+    <notes>1.14.2.2</notes>
+    <authors><author><name>Magento Enterprise Team</name><user>core</user><email>core@magentocommerce.com</email></author></authors>
+    <date>2015-10-27</date>
+    <time>13:47:46</time>
+    <contents><target name="mageweb"><dir name="js"><dir name="jscolor"><file name="arrow.gif" hash="5034704a76cd55c1cbcbc58ea6bf523f"/><file name="cross.gif" hash="ba9a274b9323753cd95bc3b1eb2f4e5f"/><file name="demo.html" hash="edf71251cb2be20322d2efb00aee86a6"/><file name="hs.png" hash="fefa1a03d92ebad25c88dca94a0b63db"/><file name="hv.png" hash="990d71cada17da100653636cf8490884"/><file name="jscolor.js" hash="b65a1505390592ac6c0177d6b84774e0"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
